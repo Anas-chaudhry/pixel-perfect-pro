@@ -11,7 +11,7 @@ const Footer = () => {
             className="text-xl font-heading font-bold gradient-text"
             whileHover={{ scale: 1.05 }}
           >
-            Alex.dev
+            Anas.dev
           </motion.a>
 
           <div className="flex items-center gap-1 text-muted-foreground text-sm">

@@ -65,25 +65,28 @@ const Contact = () => {
 
             <div className="space-y-6 mb-12">
               {[
-                { icon: Mail, label: 'Email', value: 'hello@alexdev.com' },
-                { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
-                { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
+                { icon: Mail, label: 'Email', value: 'annaschawdhary.157@gmail.com', href: 'mailto:annaschawdhary.157@gmail.com' },
+                { icon: Phone, label: 'WhatsApp', value: '+92 342 1000932', href: 'https://wa.me/923421000932' },
+                { icon: MapPin, label: 'Location', value: 'Pakistan' },
               ].map((item, index) => (
-                <motion.div
+                <motion.a
                   key={item.label}
+                  href={item.href || '#'}
+                  target={item.href?.startsWith('http') ? '_blank' : undefined}
+                  rel={item.href?.startsWith('http') ? 'noopener noreferrer' : undefined}
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-                  className="flex items-center gap-4"
+                  className="flex items-center gap-4 group"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                     <item.icon className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">{item.label}</div>
-                    <div className="font-medium">{item.value}</div>
+                    <div className="font-medium group-hover:text-primary transition-colors">{item.value}</div>
                   </div>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
 
