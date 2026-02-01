@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Anas - Freelance Graphic Designer, Web Developer & App Developer. Transforming ideas into stunning digital experiences.">
+    <meta name="keywords" content="graphic designer, web developer, app developer, freelancer, UI/UX design, React, portfolio">
+    <meta name="author" content="Muhammad Anas">
+    <title>Anas.dev | Creative Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">Anas.dev</a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <a href="#contact" class="nav-cta">Let's Talk</a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+                <div class="hero-shape shape-1"></div>
+                <div class="hero-shape shape-2"></div>
+            </div>
+            
+            <div class="hero-content container">
+                <div class="hero-subtitle animate-fade-in">
+                    <span class="line"></span>
+                    <span>Creative Developer & Designer</span>
+                    <span class="line"></span>
+                </div>
+                
+                <h1 class="hero-title animate-fade-in delay-1">
+                    I Craft <span class="gradient-text">Digital</span><br>Experiences
+                </h1>
+                
+                <p class="hero-description animate-fade-in delay-2">
+                    Freelance graphic designer, web developer & app developer.
+                    Transforming ideas into stunning visual solutions and functional digital products.
+                </p>
+                
+                <div class="hero-buttons animate-fade-in delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                
+                <div class="hero-services animate-fade-in delay-4">
+                    <div class="service-icon">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path><circle cx="12" cy="12" r="10"></circle></svg>
+                        </div>
+                        <span>Design</span>
+                    </div>
+                    <div class="service-icon">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <span>Web Dev</span>
+                    </div>
+                    <div class="service-icon">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
+                        </div>
+                        <span>App Dev</span>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#services" class="scroll-indicator">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+            </a>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="section-divider"></div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">What I Do</span>
+                    <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                    <p class="section-description">Comprehensive digital solutions tailored to your needs. From concept to completion, I deliver excellence in every project.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.555C21.965 6.012 17.461 2 12 2z"></path></svg>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Eye-catching visuals that communicate your brand story. From logos to complete brand identities.</p>
+                        <ul class="service-features">
+                            <li>Logo Design</li>
+                            <li>Brand Identity</li>
+                            <li>Print Design</li>
+                            <li>Social Media</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Modern, responsive websites built with the latest technologies. Fast, secure, and scalable.</p>
+                        <ul class="service-features">
+                            <li>React/Next.js</li>
+                            <li>E-commerce</li>
+                            <li>CMS Integration</li>
+                            <li>SEO Optimized</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                        <ul class="service-features">
+                            <li>iOS & Android</li>
+                            <li>React Native</li>
+                            <li>UI/UX Design</li>
+                            <li>App Store Ready</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path></svg>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design that combines aesthetics with functionality for maximum engagement.</p>
+                        <ul class="service-features">
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>User Research</li>
+                            <li>Design Systems</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                        </div>
+                        <h3>Performance</h3>
+                        <p>Lightning-fast applications optimized for speed and performance across all devices.</p>
+                        <ul class="service-features">
+                            <li>Code Optimization</li>
+                            <li>Image Compression</li>
+                            <li>CDN Setup</li>
+                            <li>Caching</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
+                        </div>
+                        <h3>Maintenance</h3>
+                        <p>Ongoing support and maintenance to keep your digital products running smoothly.</p>
+                        <ul class="service-features">
+                            <li>Bug Fixes</li>
+                            <li>Updates</li>
+                            <li>Monitoring</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-divider"></div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">My Work</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-description">A selection of my recent work. Each project is a unique piece of development and design excellence.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card scroll-animate">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <span class="project-category">Web Development</span>
+                                <h3>E-Commerce Platform</h3>
+                                <p>A modern e-commerce platform with seamless user experience and integrated payment system.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View project">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="View code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">Web Development</span>
+                            <h3>E-Commerce Platform</h3>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Stripe</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card scroll-animate">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" alt="Fitness Tracking App">
+                            <div class="project-overlay">
+                                <span class="project-category">App Development</span>
+                                <h3>Fitness Tracking App</h3>
+                                <p>Cross-platform mobile app for tracking workouts, nutrition, and health metrics.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View project">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="View code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">App Development</span>
+                            <h3>Fitness Tracking App</h3>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Charts</span>
+                                <span>HealthKit</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card scroll-animate">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=600&fit=crop" alt="Brand Identity Design">
+                            <div class="project-overlay">
+                                <span class="project-category">Graphic Design</span>
+                                <h3>Brand Identity Design</h3>
+                                <p>Complete brand identity including logo, color palette, typography, and marketing collateral.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View project">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="View code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">Graphic Design</span>
+                            <h3>Brand Identity Design</h3>
+                            <div class="project-tags">
+                                <span>Branding</span>
+                                <span>Logo</span>
+                                <span>Print</span>
+                                <span>Guidelines</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-cta scroll-animate">
+                    <a href="#" class="btn btn-outline">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-divider"></div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Expertise</span>
+                    <h2 class="section-title">Skills & <span class="gradient-text">Tools</span></h2>
+                    <p class="section-description">Constantly learning and improving. Here are the technologies and tools I use to bring ideas to life.</p>
+                </div>
+                
+                <div class="skills-content">
+                    <div class="skills-bars scroll-animate">
+                        <h3>Technical Skills</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React / Next.js</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>TypeScript</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Node.js</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React Native</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>UI/UX Design</span>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Figma / Adobe XD</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Adobe Creative Suite</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Tailwind CSS</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-tools scroll-animate">
+                        <h3>Tools I Use</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">Figma</div>
+                            <div class="tool-item">VS Code</div>
+                            <div class="tool-item">Git</div>
+                            <div class="tool-item">Docker</div>
+                            <div class="tool-item">AWS</div>
+                            <div class="tool-item">Vercel</div>
+                            <div class="tool-item">Photoshop</div>
+                            <div class="tool-item">Illustrator</div>
+                            <div class="tool-item">After Effects</div>
+                            <div class="tool-item">Premiere Pro</div>
+                            <div class="tool-item">Notion</div>
+                            <div class="tool-item">Slack</div>
+                        </div>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-divider"></div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="section-description">Have a project in mind? Let's discuss how we can work together to bring your ideas to life.</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info scroll-animate">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact-items">
+                            <a href="mailto:annaschawdhary.157@gmail.com" class="contact-item">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">annaschawdhary.157@gmail.com</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://wa.me/923421000932" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">WhatsApp</span>
+                                    <span class="contact-value">+92 342 1000932</span>
+                                </div>
+                            </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Follow Me</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" aria-label="LinkedIn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Twitter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form scroll-animate" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">Anas.dev</a>
+                <p class="footer-copyright">
+                    Made with <span class="heart">❤</span> © 2025 All rights reserved.
+                </p>
+                <nav class="footer-nav">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
