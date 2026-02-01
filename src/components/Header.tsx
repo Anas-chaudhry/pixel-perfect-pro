@@ -37,7 +37,7 @@ const Header = () => {
           className="text-2xl font-heading font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          Alex.dev
+          Anas.dev
         </motion.a>
 
         {/* Desktop Navigation */}
